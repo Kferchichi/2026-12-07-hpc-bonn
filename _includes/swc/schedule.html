@@ -1,40 +1,292 @@
 <div class="row">
-  <div class="col-md-6">
-    <h5>Day 1</h5>
+
+  <!-- ==================== DAY 1 ==================== -->
+  <div class="col-md-3">
+    <h5 id="day-1">Day 1: Unix Shell</h5>
+
     <table class="table table-striped">
-      <tr> <td>Before</td> <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a> </td> </tr>
-      <tr> <td>09:00</td>  <td>Automating Tasks with the Unix Shell</td> </tr>
-      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Automating Tasks with the Unix Shell (Continued)</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      {% if site.flavor == "r" %}
-      <tr> <td>13:00</td>  <td>Building Programs with R</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with R (Continued)</td> </tr>
-      {% elsif site.flavor == "python" %}
-      <tr> <td>13:00</td>  <td>Building Programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with Python (Continued)</td> </tr>
-      {% else %}
-      {% include warning-flavor.html %}
-      {% endif %}
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>16:30</td>  <td>END</td> </tr>
+
+      <tr>
+        <td>Before</td>
+        <td>
+          <a href="{{ site.pre_survey }}{{ site.github.project_title }}"
+             target="_blank" rel="noopener noreferrer">
+            Pre-workshop survey
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>09:00</td>
+        <td>Welcome, workshop introduction &amp; overview</td>
+      </tr>
+        <td>9:10</td>
+        <td><a href="https://swcarpentry.github.io/shell-novice/instructor/aio.html">The Unix Shell: Introducing the Shell</a></td>
+      </tr>
+      <tr>
+        <td>09:30</td>
+        <td>Navigating Files and Directories</td>
+      </tr>
+
+      <tr>
+        <td>10:00</td>
+        <td>Working With Files and Directories</td>
+      </tr>
+
+      <tr>
+        <td>10:45</td>
+        <td><strong>Coffee break</strong></td>
+      </tr>
+
+      <tr>
+        <td>11:00</td>
+        <td>Pipes and Filters</td>
+      </tr>
+
+      <tr>
+        <td>11:45</td>
+        <td>Loops</td>
+      </tr>
+
+      <tr>
+        <td>12:15</td>
+        <td><strong>Lunch break</strong></td>
+      </tr>
+
+      <tr>
+        <td>12:45</td>
+        <td>Shell Scripts</td>
+      </tr>
+
+      <tr>
+        <td>13:25</td>
+        <td>Finding Things</td>
+      </tr>
+
+      <tr>
+        <td>13:50</td>
+        <td>Wrap-up</td>
+      </tr>
+
+      <tr>
+        <td>14:00</td>
+        <td><strong>END</strong></td>
+      </tr>
+
     </table>
   </div>
-  <div class="col-md-6">
-    <h5>Day 2</h5>
+
+
+  <!-- ==================== DAY 2 ==================== -->
+  <div class="col-md-3">
+    <h5 id="day-2">Day 2: Git</h5>
+
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version Control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Version Control with Git (Continued)</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing Data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Managing Data with SQL (Continued)</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>16:30</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Post-workshop Survey</a></td> </tr>
-      <tr> <td>16:40</td>  <td>END</td> </tr>
+
+      <tr>
+        <td>09:00</td>
+        <td><a href="https://swcarpentry.github.io/git-novice/aio.html">Version Control with Git</a></td>
+      </tr>
+
+      <tr>
+        <td>09:30</td>
+        <td>Creating a Repository</td>
+      </tr>
+
+      <tr>
+        <td>10:00</td>
+        <td>Tracking Changes</td>
+      </tr>
+
+      <tr>
+        <td>10:45</td>
+        <td><strong>Coffee break</strong></td>
+      </tr>
+
+      <tr>
+        <td>11:00</td>
+        <td>Exploring History</td>
+      </tr>
+
+      <tr>
+        <td>11:30</td>
+        <td>Ignoring Things</td>
+      </tr>
+
+      <tr>
+        <td>11:45</td>
+        <td>Remotes in GitHub</td>
+      </tr>
+
+      <tr>
+        <td>12:15</td>
+        <td><strong>Lunch break</strong></td>
+      </tr>
+
+      <tr>
+        <td>12:45</td>
+        <td>Collaborating</td>
+      </tr>
+
+      <tr>
+        <td>13:15</td>
+        <td>Conflicts</td>
+      </tr>
+
+      <tr>
+        <td>13:40</td>
+        <td>Open Science, Licensing &amp; Citation</td>
+      </tr>
+
+      <tr>
+        <td>13:50</td>
+        <td>Wrap-up</td>
+      </tr>
+
+      <tr>
+        <td>14:00</td>
+        <td><strong>END</strong></td>
+      </tr>
+
     </table>
   </div>
+
+
+  <!-- ==================== DAY 3 ==================== -->
+  <div class="col-md-3">
+    <h5 id="day-3">Day 3: R — Part 1</h5>
+
+    <table class="table table-striped">
+
+      <tr>
+        <td>09:00</td>
+        <td><a href="https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro.html">Introduction to R and RStudio</a></td>
+      </tr>
+
+      <tr>
+        <td>09:30</td>
+        <td>Project Management With RStudio</td>
+      </tr>
+
+      <tr>
+        <td>10:00</td>
+        <td>Data Structures</td>
+      </tr>
+
+      <tr>
+        <td>10:45</td>
+        <td><strong>Coffee break</strong></td>
+      </tr>
+
+      <tr>
+        <td>11:00</td>
+        <td>Exploring Data Frames</td>
+      </tr>
+
+      <tr>
+        <td>11:45</td>
+        <td>Subsetting Data</td>
+      </tr>
+
+      <tr>
+        <td>12:15</td>
+        <td><strong>Lunch break</strong></td>
+      </tr>
+
+      <tr>
+        <td>12:45</td>
+        <td>Control Flow</td>
+      </tr>
+
+      <tr>
+        <td>13:20</td>
+        <td>Creating Publication-Quality Graphics with ggplot2</td>
+      </tr>
+
+      <tr>
+        <td>13:50</td>
+        <td>Wrap-up</td>
+      </tr>
+
+      <tr>
+        <td>14:00</td>
+        <td><strong>END</strong></td>
+      </tr>
+
+    </table>
+  </div>
+
+
+  <!-- ==================== DAY 4 ==================== -->
+  <div class="col-md-3">
+    <h5 id="day-4">Day 4: R — Part 2</h5>
+
+    <table class="table table-striped">
+
+      <tr>
+        <td>09:00</td>
+        <td><td><a href="https://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2.html">Creating Publication-Quality Graphics with ggplot2 — Continued</a></td>
+      </tr>
+
+      <tr>
+        <td>09:45</td>
+        <td>Vectorization &amp; Functions</td>
+      </tr>
+
+      <tr>
+        <td>10:45</td>
+        <td><strong>Coffee break</strong></td>
+      </tr>
+
+      <tr>
+        <td>11:00</td>
+        <td>Data Frame Manipulation with dplyr</td>
+      </tr>
+
+      <tr>
+        <td>11:45</td>
+        <td>Data Frame Manipulation with tidyr</td>
+      </tr>
+
+      <tr>
+        <td>12:15</td>
+        <td><strong>Lunch break</strong></td>
+      </tr>
+
+      <tr>
+        <td>12:45</td>
+        <td>Data Frame Manipulation — Continued</td>
+      </tr>
+
+      <tr>
+        <td>13:25</td>
+        <td>Writing Data &amp; Producing Reports with knitr</td>
+      </tr>
+
+      <tr>
+        <td>13:45</td>
+        <td>Workshop wrap-up</td>
+      </tr>
+
+      <tr>
+        <td>13:50</td>
+        <td>
+          <a href="{{ site.post_survey }}{{ site.github.project_title }}"
+             target="_blank" rel="noopener noreferrer">
+            Post-workshop survey
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>14:00</td>
+        <td><strong>END</strong></td>
+      </tr>
+
+    </table>
+  </div>
+
+</div>
+  </div>
+
 </div>
