@@ -2,7 +2,7 @@
 # More detailed instructions (including how to fill these variables for an # online workshop) are available at https://carpentries.github.io/workshop-template/customization/index.html#yaml-header
 # Required variables
 venue: "Rheinische Friedrich-Wilhelms-Universität Bonn"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "High-Performance Computing (HPC) - Wegelerstraße 6, 53115 Bonn"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "University IT and Data Center (HRZ) - Wegelerstraße 6, 53115 Bonn - Course Room No.: 0.012"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "DE"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "50.728592"     # decimal latitude of workshop venue - this should be a number greater than or equal to -90, and less than or equal to 90 (use https://www.latlong.net/)
@@ -300,7 +300,7 @@ address.
                 The workshop organizers have checked that:
                 <br/>
                 <ul>
-                    <li>The room is wheelchair / scooter accessible.</li>
+                    <li>The room is wheelchair / scooter accessible, but please let us know in advance. Access is via a ramp to the underground garage, then through the basement and by elevator to the institute.</li>
                     <li>Accessible restrooms are available.</li>
                 </ul>
             {% endif %}
