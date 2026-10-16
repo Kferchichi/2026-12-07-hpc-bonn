@@ -240,6 +240,7 @@ address.
                         Online at <a href="{{page.address}}">{{page.address}}</a>.
                         If you need a password or other information to access the training,
                         the instructor will pass it on to you before the workshop.
+                        Please visit the website for more information about how to find the building: https://www.ftd.uni-bonn.de/en/contact/directions
                     </p>
                 {% elsif online == "true_private" %}
                     <p id="where">
@@ -300,7 +301,7 @@ address.
                 The workshop organizers have checked that:
                 <br/>
                 <ul>
-                    <li>The room is wheelchair / scooter accessible, but please let us know in advance. Access is via a ramp to the underground garage, then through the basement and by elevator to the institute. In Addition, the building might be accessed without steps through the back entrance.</li>
+                    <li>The building has as wheelchair / scooter accessible entrance, but please let us know in advance.In addition there is a Wheelchair-accessible parking space.</li>
                     <li>Accessible restrooms are available.</li>
                 </ul>
             {% endif %}
