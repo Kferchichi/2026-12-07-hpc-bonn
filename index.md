@@ -301,7 +301,7 @@ address.
                 The workshop organizers have checked that:
                 <br/>
                 <ul>
-                    <li>The building has as wheelchair / scooter accessible entrance, but please let us know in advance.In addition there is a Wheelchair-accessible parking space.</li>
+                    <li>The building has as wheelchair / scooter accessible entrance, but please let us know in advance. In addition there is a Wheelchair-accessible parking space.</li>
                     <li>Accessible restrooms are available.</li>
                 </ul>
             {% endif %}
