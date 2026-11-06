@@ -277,8 +277,10 @@ address.
             </p>
             <p>
             <strong>R for reproducible Scientific Analysis scheduled on Wednesday December 9 and Thursday December 10, 2026!</strong>
+            <p>
             <a href="https://indico.hiskp.uni-bonn.de/event/1942/" target="_blank" rel="noopener noreferrer">
                 👉 Register here
+            </p>
             </a>
         </p>
     </dd>
