@@ -270,11 +270,31 @@ address.
         <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Registration</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
             <p>
+    👉 Register for the following sessions:
             <a href="https://indico.hiskp.uni-bonn.de/event/1942/" target="_blank" rel="noopener noreferrer">
-                👉 Register here for the following sessions:
-            </a>
-         </p>
-          <p>
+    <strong class="blink">Click here to register</strong>
+    </a>
+    
+    </p>
+
+     <style>
+     .blink {
+    font-weight: bold;
+    animation: blink 1.5s ease-in-out infinite;
+     }
+
+     @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+    .blink {
+        animation: none;
+    }
+    }
+      </style>
+           <p>
             <strong>Unix Shell on Monday December 7, 2026!</strong>
             </p>
             <p>
