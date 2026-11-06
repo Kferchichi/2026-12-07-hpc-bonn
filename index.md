@@ -270,9 +270,9 @@ address.
         <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Registration</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
             <p>
-    👉 Register for the following sessions:
+     To register for the following sessions 👉
             <a href="https://indico.hiskp.uni-bonn.de/event/1942/" target="_blank" rel="noopener noreferrer">
-    <strong class="blink">Click here to register</strong>
+    <strong class="blink">Click here</strong>
     </a>
     
     </p>
