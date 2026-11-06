@@ -272,9 +272,9 @@ address.
             <p>
             <a href="https://indico.hiskp.uni-bonn.de/event/1942/" target="_blank" rel="noopener noreferrer">
                 👉 Register here for the following sessions:
-            </p>
             </a>
-           <p>
+         </p>
+          <p>
             <strong>Unix Shell on Monday December 7, 2026!</strong>
             </p>
             <p>
