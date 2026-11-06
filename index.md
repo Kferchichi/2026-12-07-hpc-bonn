@@ -298,7 +298,7 @@ address.
             <strong>Unix Shell on Monday December 7, 2026!</strong>
             </p>
             <p>
-            <strong>Git/Github on Tuesday December 8, 2026!</strong>
+            <strong>Git/GitHub on Tuesday December 8, 2026!</strong>
             </p>
             <p>
             <strong>R for reproducible Scientific Analysis scheduled on Wednesday December 9 and Thursday December 10, 2026!</strong>
