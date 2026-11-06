@@ -266,6 +266,19 @@ address.
             {% endif %}    
         </dd>
     </div>
+     <div class="row">
+        <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Registration</dt>
+        <dd class="col py-2 px-3 mx-0 mb-0">
+           <p>
+            <strong>Unix Shell on Monday December 7, 2026!</strong>
+            <strong>Git/Github on Tuesday December 8, 2026!</strong>
+            <strong>R for reproducible Scientific Analysis scheduled on Wednesday December 9 and Thursday December 10, 2026!</strong>
+            <a href="https://indico.hiskp.uni-bonn.de/event/1942/" target="_blank" rel="noopener noreferrer">
+                👉 Register here
+            </a>
+        </p>
+    </dd>
+    </div>
     <div class="row">
         <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Requirements</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
